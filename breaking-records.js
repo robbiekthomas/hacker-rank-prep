@@ -4,7 +4,6 @@ function breakingRecords(scores) {
   let min = scores[0];
   let max = scores[0];
   for (const score of scores) {
-      console.log(min);
       if (score < min) {
           minCount += 1;
           min = score;
